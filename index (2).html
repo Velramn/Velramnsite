@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velramn - Boutique Gothique</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Velramn</h1>
+        <p>L’élégance gothique à portée de main</p>
+    </header>
+
+    <nav>
+        <a href="#home">Accueil</a>
+        <a href="#shop">Boutique</a>
+        <a href="#about">À propos</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h2>Découvrez notre Collection</h2>
+        <button onclick="window.location.href='#shop';">Voir la Collection</button>
+    </section>
+
+    <section id="shop">
+        <h2>Boutique</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="product1.jpg" alt="Produit 1">
+                <h3>Veste Gothique</h3>
+                <p>Prix : 75 CAD</p>
+                <button>Ajouter au Panier</button>
+            </div>
+            <div class="product">
+                <img src="product2.jpg" alt="Produit 2">
+                <h3>T-shirt Gothique</h3>
+                <p>Prix : 35 CAD</p>
+                <button>Ajouter au Panier</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>À propos de Velramn</h2>
+        <p>Chez Velramn, nous sommes passionnés par la mode gothique et déterminés à offrir des vêtements uniques et de qualité.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Velramn. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
